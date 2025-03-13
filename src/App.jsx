@@ -4,6 +4,7 @@ import './App.css'
 import UseEffect from './component/UseEffect'
 import UseRef from './component/UseRef'
 import UseRef1 from './component/UseRef1'
+import Memo from './component/Memo'
 
 
 
@@ -14,9 +15,8 @@ function App() {
 
   return (
     <>
-      <UseEffect />
-      <UseRef />
-      <UseRef1 />
+      
+      <Memo />
     </>
   )
 }
