@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useMemo} from 'react'
 
 function Header() {
 
@@ -11,4 +11,4 @@ function Header() {
   )
 }
 
-export default Header
+export default React.memo(Header)

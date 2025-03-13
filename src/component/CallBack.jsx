@@ -8,10 +8,14 @@ function CallBack() {
     const updateCount = ()=> {
         setCount(prev => prev + 1)
     }
+
+    const newFn = ()=>{
+
+    }
     
   return (
     <>
-        <Header/>
+        <Header newFn ={newFn}/>
 
       <h1>Count: {count} </h1>
       <button onClick={updateCount}>Click Here</button>
