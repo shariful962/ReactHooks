@@ -7,6 +7,9 @@ import UseRef1 from './component/UseRef1'
 import Memo from './component/Memo'
 import CallBack from './component/CallBack'
 import UseReducer from './component/UseReducer'
+import UseReducer1 from './component/UseReducer1'
+import ReducerUse from './component/ReducerUse'
+import Reduce from './component/Reduce'
 
 
 
@@ -18,7 +21,7 @@ function App() {
 
   return (
     <>
-      <UseReducer />
+      <Reduce />
     </>
   )
 }
