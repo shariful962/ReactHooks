@@ -6,6 +6,8 @@ import UseRef from './component/UseRef'
 import UseRef1 from './component/UseRef1'
 import Memo from './component/Memo'
 import CallBack from './component/CallBack'
+import UseReducer from './component/UseReducer'
+
 
 
 
@@ -16,7 +18,7 @@ function App() {
 
   return (
     <>
-      <CallBack />
+      <UseReducer />
     </>
   )
 }

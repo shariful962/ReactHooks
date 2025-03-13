@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useState, useCallback} from 'react'
 import Header from './Header';
 
 function CallBack() {
@@ -9,9 +9,7 @@ function CallBack() {
         setCount(prev => prev + 1)
     }
 
-    const newFn = ()=>{
-
-    }
+    const newFn = useCallback(()=>{},[])
     
   return (
     <>
